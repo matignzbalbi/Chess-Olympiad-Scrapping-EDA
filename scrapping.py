@@ -440,7 +440,7 @@ def insert_data_black_table2(conn, player_black, b_a_pwn, b_b_pwn, b_c_pwn, b_d_
     
 def main():
 
-    df = pd.read_csv(r"C:\Users\mrgnz\OneDrive\Escritorio\Datos\Olympiads\round3.csv", header = 1, names = ["Links"])
+    df = pd.read_csv(r"round3.csv", header = 1, names = ["Links"])
 
 
     for row in df["Links"]: 
@@ -503,7 +503,7 @@ def main():
             print(f"Datos insertados para {player_white} vs {player_black}")
 
         except:
-            print(f"No sean podido insertar los datos para {player_white} vs {player_black}")
+            print(f"No se han podido insertar los datos para {player_white} vs {player_black}")
 
     conn.close()
     driver.quit()
