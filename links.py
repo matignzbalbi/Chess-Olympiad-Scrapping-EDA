@@ -34,7 +34,7 @@ for option in options:
     links.append(current_url)
     print(f"Link: {current_url}, agregado")
 
-with open (r"round11.csv", 'w', newline='') as f:
+with open (r"rounds.csv", 'w', newline='') as f:
 
     write = csv.writer(f)
     
