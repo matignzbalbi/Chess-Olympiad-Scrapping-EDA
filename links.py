@@ -16,8 +16,6 @@ chrome_options.add_argument("--ignore-certificate-errors-spki-list")
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
-
-
 driver.get("https://www.chess.com/events/2024-fide-chess-olympiad-open/dashboard/11/Fedoseev_Vladimir-Gukesh_D")
 time.sleep(5)
 
@@ -26,7 +24,6 @@ select = driver.find_element(By.CLASS_NAME, "cc-select-component.cc-select-large
 select.click()
 
 options = select.find_elements(By.TAG_NAME, "option")
-
 
 links = []
 
@@ -37,8 +34,7 @@ for option in options:
     links.append(current_url)
     print(f"Link: {current_url}, agregado")
 
-
-with open (r"C:\Users\mrgnz\OneDrive\Escritorio\Datos\Olympiads\round11.csv", 'w', newline='') as f:
+with open (r"round11.csv", 'w', newline='') as f:
 
     write = csv.writer(f)
     
