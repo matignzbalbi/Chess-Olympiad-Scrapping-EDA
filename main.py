@@ -395,7 +395,7 @@ def connect_db():
 
     conn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
-        'SERVER=MATI\\SQLEXPRESS;'  
+        'SERVER=PC;'  
         'DATABASE=Olympiads;'  
         'Trusted_Connection=yes;'  
     )
