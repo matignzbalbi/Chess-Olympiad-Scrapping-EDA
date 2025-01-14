@@ -32,7 +32,7 @@ for option in options:
     time.sleep(1)
     current_url = driver.current_url
     links.append(current_url)
-    print(f"Link: {current_url}, agregado")
+    print(f"Link: {current_url}, added")
 
 with open (r"rounds.csv", 'w', newline='') as f:
 
