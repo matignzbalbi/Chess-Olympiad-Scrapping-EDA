@@ -36,9 +36,7 @@ def players ():
 
     player_white = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, ".player-component.player-bottom .player-details .player-name .player-name-name"))) 
-        
-        # Si comparten clase CSS se escriben juntos con un punto como en .player-component.player-bottom
-
+    
 
     player_black = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, ".player-component .player-details .player-name .player-name-name")))
