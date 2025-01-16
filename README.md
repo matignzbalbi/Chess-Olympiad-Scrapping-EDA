@@ -6,7 +6,8 @@ The main idea of this project was to scrape data from approximately 4,000 games 
 ### Files
 Within the files of this repository, we can find **links.py**, which was used to collect the links that were later scraped for each game on Chess.com. On the other hand, **main.py** was used to gather the data from these links.
 
+### Tableau Visualizations
+The analysis concludes with an interactive map where you can hover your mouse over and see the average accuracy that each country had during the Olympics (Click here), along with other graphs detailed in the ''Visualizations'' folder.
 
 
-
-
+![image](https://github.com/user-attachments/assets/93758f2d-d3be-4675-bba1-1ecb026de985)
