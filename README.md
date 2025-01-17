@@ -7,7 +7,7 @@
 #### Within the files of this repository, we can find **links.py**, which was used to collect the links that were later scraped for each game on Chess.com. On the other hand, **main.py** was used to gather the data from these links.
 
 ### Tableau Visualizations
-#### The analysis concludes with an interactive map where you can hover your mouse over and see the average accuracy that each country had during the Olympics ([click here](https://public.tableau.com/shared/Z94875MP4?:display_count=n&:origin=viz_share_link)), along with other graphs detailed in the ''Visualizations'' folder.
+#### The analysis concludes with an interactive map where you can hover your mouse over and see the average accuracy that each country had during the Olympiad ([click here](https://public.tableau.com/shared/Z94875MP4?:display_count=n&:origin=viz_share_link)), along with other graphs detailed [here](https://public.tableau.com/shared/WRJ4N84T5?:display_count=n&:origin=viz_share_link).
 
 
 ![image](https://github.com/user-attachments/assets/93758f2d-d3be-4675-bba1-1ecb026de985)
